@@ -82,8 +82,8 @@ To illustrate the protocol's impact, consider the following before-and-after exa
 
 REP is controlled by a JSON object that allows for both global and modular control.
 
-**// Example Template: rep-rules-casual-blog.json**
-json
+**Example Template: rep-rules-casual-blog.json**
+```json
 {
   "rep_version": "1.3",
   "global_intensity": "medium",
@@ -110,10 +110,11 @@ json
     }
   }
 }
-
+```
 <a name="logging"></a>Log Output Schema
 When "logging": "enabled", the protocol can be configured to return an array of log objects detailing the changes it made.
 Example Log Output:
+```json
 [
   {
     "module": "clarity_conciseness",
@@ -130,7 +131,7 @@ Example Log Output:
     "location": "paragraph 1, sentence 3"
   }
 ]
-
+```
 <a name="intensity"></a>Defined Intensity Mechanism
 The global_intensity setting (low, medium, high) provides a simple way to tune the protocol's overall aggressiveness. This setting modulates the internal thresholds of each module.
  * low: The protocol is less aggressive. It might require 5 consecutive similar sentences to trigger the Rhythm module.
