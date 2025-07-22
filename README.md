@@ -55,3 +55,26 @@ For optimal results, integrate REP in this order:
 
 ```plaintext
 LLM Output → REP → POCP → Final Output
+```
+This ensures REP performs major stylistic rewrites before punctuation and formatting are locked in by POCP.
+
+📚 Related Protocols
+HIP – Hyperlink Interpretation Protocol
+
+POCP – Punctuated Output Control Protocol
+
+🧪 In Development
+Planned future versions of REP include:
+
+Persona-aware editing
+
+A/B testing mode
+
+Knowledge preservation layer
+
+Adaptive intensity calibration
+
+🤝 Contributions
+Pull requests, testing feedback, and forks are welcome. Please see the main repo for licensing, roadmap, and other synthetic cognition protocols.
+
+
