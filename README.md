@@ -1,5 +1,9 @@
 # Readability Enhancement Protocol (REP)
 
+[![Protocol Status](https://img.shields.io/badge/Status-Release_Candidate_v1.3-green.svg)](./)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![Author: Daniel T. Sasser II](https://img.shields.io/badge/Author-Daniel_T._Sasser_II-orange.svg)](https://dansasser.me)
+
 > **Version:** 1.3  
 > **Author:** Daniel T. Sasser II  
 > **License:** MIT  
