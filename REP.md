@@ -6,9 +6,9 @@
 
 ## <a name="overview"></a>Overview
 
-**Version:** 1.3
-**Status:** Final
-**Author:** Daniel T. Sasser II
+**Version:** 1.3   
+**Status:** Final   
+**Author:** Daniel T. Sasser II   
 **Project:** Gorombo Agent Framework
 
 ---
